@@ -1,0 +1,494 @@
+.container{
+    padding: 20px;
+}
+
+header{
+    height: 77px;
+    background-color: #703BE7;
+    color: white;
+    width: 100%;
+    
+}
+header .logo{
+    float:left;
+}
+
+header img{
+    padding: 12px;
+}
+header h1{
+    float: right;
+    margin-left: 10px;
+}
+
+nav{
+    float :right;
+    padding: 18px;
+    
+}
+.nav-icon{
+    display: none;
+}
+header li{
+    display: inline;
+    padding: 10px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+ .main-txt{
+    position: absolute;
+    padding: 20px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+    width: 630px;
+    height: 300px;
+    bottom: 5%;  
+    left:30px;
+} 
+
+.main h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;    
+
+}
+.main p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    background: #F28D35;
+    width: 190px;
+    padding: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 100px;
+
+
+}
+.main-img img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.main{
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+.services1{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    padding:0% 5% ;
+}
+
+.services2{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    padding:0% 5% ;
+}
+
+.services2 img{
+    width : 30%;
+    
+}
+
+.services2 .services-intro{
+    float: right;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.services1 img{
+    float: right;
+    width : 30%;
+    padding: 5%;
+
+}
+
+.services1 .services-intro{
+    float: left;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 20%;
+  
+}
+ 
+.services-intro h2{
+    color: #6B3CC9;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    
+}
+
+.services-intro p{
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+
+
+}
+
+.services-intro button{
+    background: #F28D35;
+    width: Hug (129px)px;
+    height: Hug (38px)px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: transparent;
+    color: white;
+    float: left;
+
+}
+
+.questions{
+    width: 60%;
+    text-align: center;
+    padding: 0% 20% 5% 20%;
+}
+
+.question{
+    background-color: #FAF8FF;
+    padding: 20px;
+    margin-top: 20px;
+  
+}
+
+.question h3{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    float: inline-start;
+    padding-bottom: 10px;
+    margin: 0;
+ 
+
+}
+.question p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6F6C90;
+    padding-top: 40px;
+}
+.question img{
+    position: absolute;
+    padding-top: 10px;
+    float: inline-end;
+}
+
+footer{
+    background-color: #703BE7;
+    color: white;
+    
+}
+
+.main-footer{
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+}
+.main-footer img{
+    float: left;
+    padding: 20px;
+   
+}
+
+.main-footer p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin-top: 100px;
+    width: 100%;
+    
+
+}
+.main-footer h1{
+    float: left; 
+    margin-left: 100px;
+    position: absolute;
+} 
+
+.technologies{
+   float: left;
+   width:15%;
+   margin-left: 35%; 
+   gap: 128px;
+   opacity: 0px;
+
+}
+
+.our-services{
+   float:left;
+   width:15%;
+   gap: 128px;
+   opacity: 0px;
+}
+.technologies p{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.41px;
+    text-align: left;
+
+ }
+ 
+ .our-services p{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.41px;
+    text-align: left;
+
+ }
+
+.technologies ul{
+    padding-left: 0px;
+}
+.technologies li{
+    list-style-type: none;   
+}
+
+.technologies li a{
+    text-decoration: none;
+}
+.our-services ul{
+    padding-left: 0px;
+}
+.our-services li{
+    list-style-type: none;
+}*/
+
+.our-services li a{
+    text-decoration: none;
+}
+.company{
+    text-align: center;
+    margin-top: 250px;
+
+}
+.company hr{
+    width: 60%;
+} 
+
+
+footer li{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    margin: 10px 0
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .questions{
+        width: 90%;
+        padding:0% 5% ;
+        
+    }
+    .technologies{
+        float: left;
+        width:15%;
+        margin-left: 20%; 
+        gap: 128px;
+        opacity: 0px;
+     
+     }
+     
+  
+  }
+
+  @media screen and (max-width: 768px) {
+    .questions{
+        width: 95%;
+        padding:0% 2.5% ;
+        
+    }
+    .services1{
+        width: 95%;
+        padding:0% 2.5% ;
+    }
+    
+    .services2{
+        width: 95%;
+        padding:0% 2.5% ;
+    }
+    .main-footer{
+        width: 100%;
+        padding:0% 5% ;
+    }
+    .technologies{
+        
+        width:40%;
+        padding:0% 5% ;
+        margin-left: 0px;
+        float: left;
+     }
+     
+     .our-services{
+        width:40%;
+        padding:0% 5% ;
+        float: left;
+     }
+    .main-txt{
+        position: relative;
+        width:100%;
+        margin-left: -10%;
+        height: auto;
+        
+    } 
+    .main-txt p{
+           margin-bottom: 0px;
+           height: 15%;
+           margin-left: 5%;
+    }
+    .main-txt h1{
+          height: 75%;
+          padding-left: 5%;
+    }
+    .services1{
+        width: 98%;
+        text-align: center;
+        display: flex;
+        padding:0% 1% ;
+    }
+
+    .services2{
+        width: 98%;
+        text-align: center;
+        display: flex;
+        padding:0% 1% ;
+    }
+    .container{
+        padding: 0%;
+    }
+
+    nav ul{
+        display: none;
+    }
+    .questions{
+        margin-bottom: -25%;
+    }
+   
+  }
+
+
+  @media screen and (max-width: 375px) {
+
+    .main-footer{
+        width: 90%;
+        padding:0% 5% ;
+    }
+    .technologies{
+        
+        width:45%;
+        padding:0% 5% ;
+        float: left;
+     }
+     
+     .our-services{
+        width:45%;
+        padding:0% 5% ;
+        float: left;
+     }
+     .company hr{
+        width: 100%;
+    } 
+    .show-hide icon{
+        display: none;
+    }
+    
+    .services2 img{
+        width : 100%;
+        margin: 10%;
+        
+    }
+   /*  .services{
+        display: block;
+    }
+    .container > div {
+        float: left;
+    } */
+    .services2 .services-intro{
+       
+        margin: 10%;
+        width: 100%;
+        padding: 5%;
+        
+    }
+    .services1 img{
+      
+        width: 100%;
+        padding: 5%;
+        margin: 10%;
+    
+    }
+    
+    .services1 .services-intro{
+    
+        width: 100%;
+        padding: 5%;
+        margin: 10%;
+    }
+    .nav-icon{
+        display: block;
+    }
+    nav{
+        display: none;
+        
+    }
+    header{
+       
+        background-color: #703BE7;
+        color: white;
+        width: 100%;
+        
+    }
+    .main-txt{
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        left:0px;
+        padding: 50px;
+        height: auto;
+       
+    } 
+    body{
+        margin: 0;
+        padding: 0;
+    }
+     
+  }
